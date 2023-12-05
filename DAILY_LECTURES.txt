@@ -1,0 +1,194 @@
+C Language Contetnts
+===============================================================================================================
+
+
+-What is Dev C++ & Download, install Dev C++ 
+-Dev-C++ is a free full-featured integrated development environment (IDE) for programming in C and C++.
+-What is Syntax
+-What is Compiler
+-Demostrate the first C program with its structure. (Header file, main() & body part).
+-Demostrate first program to print message and to show comments and basic errors.
+-Compile the program n executable file.
+
+
+===========================================================
+
+-What is variable & rules for the variable.
+-Demostrate the prog for user input and print the values.
+-Use of \t n \n properly.
+-Demostrate datatypes :  int, float, char.
+-What is ASCII value - ASCII is the American Standard Code for information interchange.
+-Demostrate to print character and its ASCII value.
+-What is constant & demostrate.
+
+
+===============================================================
+
+-What is keyword. examples
+-Demostrate the sizeof data types.
+-What is operator?
+-Types of Operators
+-Demostrate the Arithmatic Operators (Calculator)
+
+================================================================================================
+
+-Introduction of Conditional statements - Control structure statements.
+-Demostrate if condition by checking n==0. (equal to operator)
+-Demostrate if condition by checking n>100. (greater than operator)
+-Demostrate if condition by checking n<100. (less than operator)
+-Demostrate the boolean value by if. Check if student is present for 1, absent for 0. if(present).
+-Demostrate if.. else (odd-even number)
+
+
+
+==================================================================================================
+
+-Demostrate else if.. (Number is pos, neg or zero)
+-Demostrate >= operator.
+-Demostrate the largest number among 3 numbers.
+-Demostrate ternary operator.(> number)
+-Demostrate ternary operator to test age>18 then print "Adult".
+-Demostrate the marksheet by using else if ladder.
+(>=70 then distinction, >=60 thyen firstclass, >=50 then second class,
+>=40 then pass class, <40 then fail).
+-Demostrate the the min. , max or equal numbers from both entered numbers.(if..else if...else)
+
+=====================================================================
+
+-Demostrate the nested if.
+-Demostrate the entered number is positive, negative or zero by nested if.
+-Demostrate the following condition for the user's entered number. (nested if)
+   number is divisible by 5 only.
+   number is divisible by 3 only.
+   number is divisible by 5 & 3 both.
+   number is not divisible by 5 & 3.
+-Demostrate the largest number among three entered numbers using nested if.
+
+=====================================================================
+
+-Demostrate && (AND) logical operator.
+-Demostrate ||  (OR) logical operator.
+-Demostrate !  (NOT) logical operator.
+-Demostrate logical operator all with special use.
+
+-Demostrate the program with else if for showing the use of switch case.
+Day-1 then sunday, 2-monday.... up to 7 then else you will get the proper message.
+
+-Demostrate this by switch case.
+
+-Demostrate menu driven program to perform all arithmetic operations. 
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulo
+(User can enter number or symbol to perform the operation.)
+
+-Demostrate the entered character is vowel or consonant.(Switch case)
+(You can skip the case)
+
+
+============================================================
+
+-Demostrate Assignment operators. (A+=B)
+
+Basic Input Output Statements
+
+- getchar & putchar : used to transfer single characters.
+- gets & puts : input and output strings
+- printf & scanf : permit the transfer of single characters, numerical values and strings.
+ 
+-Demostrate the character value by getchar() & putchar().
+-Demostrate the string to take your name as an input.
+-Demostrate the character value by gets() & puts().
+
+
+========================================================================
+
+-What is Looping?
+-3 requirements for looping : 
+		->Initialization (Starting Point)
+		->Condition (Ending Point)
+		->Incre/Decre (Loop counter updation)
+-Categiries of Loop :
+.Entry Control Loop
+.Exit Control Loop
+
+-Entry Control Loop
+.While loop
+.for loop
+
+-Exit Control Loop
+.Do...while loop
+
+-While Loop
+-Syntax : how to wrtite
+-What will happen by infinite. (missing any part for loop)
+-Demostrate to print your name 10 times using while loop.
+-Demostrate to print 1 to 10 using while loop.
+-Demostrate to print the odd and even numbers between given numbers.
+-Demostrate to print the sum of given number.
+-Demostrate to print the multiplication table for the given number.
+-Demostrate to print the Fibonacci Series of the given number.
+-Demostrate to print the square pattern by nested loop.
+
+========================================================================
+
+-Demostrate the triangle patterns. (With variations)
+-Demostrate the reverse number program.(1234-op will be 4321)
+-Demostrate the do.. while loop.
+-Difference between while & do.. while.
+-Syntax of for loop.
+-Demostrate the for loop program.
+
+=======================================================================
+
+-Demostrate the for loop triangles. (With space triangle)
+-Demostrate the global & local variable.
+-What is Jumping statement? how they will be useful in program.
+-Demostrate goto statement.
+-Demostrate break statement.
+-Demostrate continue statement.
+-Demostrate the menu driven program with continue by switch n loop.
+
+=======================================================================
+
+-Demostrate string by gets() puts() as including space.
+-Demostrate String in-built functions.
+========================================================================
+
+-Demostrate one dimentional array by declaration & initialization.
+-Demostrate to traverse the array elements.
+-Demostrate to input array elements from the user and print them.
+-Demostrate to calculate the sum of array elements.
+-Demostrate to find and print odd and even numbers from the array elements.
+-Demostrate to find max & min element from the array.
+-Demostrate to count vowels from char array.
+-Demostrate to search the element from the array.
+-Demostrate to replace element into array by entering position from the user.
+-Demostrate to delete the element from the array. (position wise also)
+-Demostrate to arrange array elements in ascending orders.
+-Demostrate to arrange array elements in descending order.
+-Demostrate multidimentional array program.
+
+=========================================================================
+
+-Demostrate to calculte the length of entered string without strlen().
+-Demostrate to check the string is palindrome or not.
+-Demostrate to input 5 student names.
+
+
+=======================================================================
+-Demostrate structure program. (Student having rollno & name)
+-Write a program of structure employee that provides the following
+information -print and display empno, empname, address and age 
+Write a program of structure for five employee that provides the following
+information -print and display empno, empname, address and age 
+
+Practicing...
+-Write a program to demonstrate escape sequence.
+-Write a program to print the sum of two numbers. 
+-Write a program to convert days into years and years into days.
+
+
+

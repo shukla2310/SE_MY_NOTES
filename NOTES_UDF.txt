@@ -1,0 +1,170 @@
+Functions: 
+-> Buil-it (e.g printf())
+-> User Defined (e.g chinmayee())
+
+-main() is UDF because the body is defined by the user only.
+
+->UDF-parts:
+.Function declaration/Prototype
+.Function call
+.Function Definition/body/block
+
+int sum(int a, int b);  //Function declaration/Prototype
+void main()
+{
+	int x=5, y=2, z;
+	z=sum(x+y);          //Function call
+	printf("  %d", z);
+}
+
+int sum(int a, int b)   //Function Definition/body/block
+
+{
+	//return (a+b);
+	int c;
+	c=sum(a,b);
+	return c;
+}
+
+-----------------------------------------------------------------------------------------------------------------
+->Function declaration/Prototype
+.If we are defining the function before main(),there is no need to declare it. 
+but generally it is defined after the main(), so that we require a declaration part.
+
+.return type of function
+.function name
+.list of arguments (variable name is optional)
+e.g int sum(int, int); 
+----------------------------------------------------------------------------------------------------------------------
+
+->Function call
+.Functiona name with arguments (actual parameters (in fun. calling))
+.List of arguments, order and data types should be matched with the function header
+which contains formal parameters(copied variable in definition).
+
+.Two ways to call a function
+-- Call by value
+-- Call by reference
+
+----------------------------------------------------------------------------------------------------------------------
+
+->Function Definition/body/block
+.Function header
+.Function body/definition /block /body
+.If function doesn't return any value then return type is void.
+
+----------------------------------------------------------------------------------------------------------------------
+
+--->4 types of UDF
+
+.No arg No return value
+.No arg but return value
+.With arg but no retun value
+.With arg with return value
+
+----------------------------------------------------------------------------------------------------------------------
+
+->No arg No return value  (No taking, no giving)
+
+If function is not having arg  then void can be used to mention.
+If functio is not returning any value then void is mentioned there.
+e.g void sum(void);
+
+
+PROGRAM:
+
+void sum(void);  //declaration
+
+void main()
+{	
+	sum();  //calling
+}
+
+void sum(void)  //definition
+{
+	int a, b, c;
+	scanf("%d %d", &a, &b);
+	c=a+b;
+	printf("\n Sum = %d",c);
+}
+
+----------------------------------------------------------------------------------------------------------------------
+
+->No arg but return value  (No taking, but giving)
+
+.Need to mention data type of retrun value.
+e.g int sum(void);
+
+PROGRAM:
+
+int sum(void);  //declaration
+
+void main()
+{	
+	int z;
+	z=sum();  //calling
+}
+
+int sum(void)  //definition
+{
+	int a, b, c;
+	scanf("%d %d", &a, &b);
+	c=a+b;
+	return c;
+}
+
+----------------------------------------------------------------------------------------------------------------------
+
+->With arg but no retun value (Taking, No giving)
+
+.Need to pass list of arguments while calling it, 
+.Doesn't return value from the function.
+.Mentioned void as return type.
+e.g void sum(int a, int b);
+
+PROGRAM:
+
+void sum(int x, int y);
+
+void main()
+{
+	int a, b;
+	scanf(" %d  %d",&a, &b);
+	sum(a,b);
+}
+
+void sum(int x, int y)
+{
+	int z;
+	z=x+y;
+	printf(" Sum = %d",z);
+
+}
+
+----------------------------------------------------------------------------------------------------------------------
+
+->With arg with return value (Taking & giving)
+
+.Both arguments and return type should be mentioned.
+e.g int sum(int a, int b);
+
+PROGRAM:
+
+int sum(int x, int y);
+
+void main()
+{
+	int a, b, c;
+	scanf("%d %d", &a, &b);
+	c=sum(a,b);
+	printf(" Sum = %d",c);
+}
+
+int sum(int x, int y)
+{
+	int z;
+	scanf("%d %d", &x, &y);
+	z=x+y;
+	return (z);
+}
+
