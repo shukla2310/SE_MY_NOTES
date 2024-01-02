@@ -1,0 +1,27 @@
+
+-> Procedure without parameter :
+
+DELIMITER $$
+create PROCEDURE insert_data()
+BEGIN
+    	insert into book values(111, 'C++ Balaguruswami', 450);
+END
+
+
+To call the above procedure:
+call insert_data();
+It will insert data into book table.
+
+--------------------------------------------------------------------------------------------------------------
+-> Procedure with parameter :
+
+DELIMITER $$
+create PROCEDURE insert_data1(id int, bname varchar(25), pr int)
+BEGIN
+    	insert into book values(id, bname, pr);
+END
+
+To call the above procedure:
+call insert_data(111,'Java', 460);
+call insert_data(112,'PHP', 560);
+It will insert data into book table.
